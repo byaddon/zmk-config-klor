@@ -4,4 +4,4 @@ jobs:
   build:
     uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
   generate_keymap:
-    uses: https://github.com/caksoylar/keymap-drawer/blob/main/.github/workflows/draw-zmk.yml@main
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
