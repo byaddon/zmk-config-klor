@@ -3,8 +3,9 @@ name: Draw ZMK keymaps
 on:
     push:
         paths:
-            - "boards/shields/klor/*.keymap"
-            - "boards/shields/klor/*.dtsi"
+            - "boards/shields/klor/klor.keymap"
+            - "boards/shields/klor/klor.dtsi"
+    workflow_dispatch:
 
 
 jobs:
@@ -13,7 +14,7 @@ jobs:
         permissions:
             contents: write
         with:
-            keymap-patterns: "boards/shields/klor/*.keymap"
+            keymap-patterns: "boards/shields/klor/klor.keymap"
             config_path: "keymap_drawer.config.yaml"
             output_folder: "keymap-drawer"
             parse_args: ""
