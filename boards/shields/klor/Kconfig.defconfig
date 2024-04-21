@@ -78,5 +78,3 @@ config ZMK_DISPLAY
     select LV_FONT_MONTSERRAT_16
 endif
 
-# Turn on logging, and set ZMK logging to debug output
-CONFIG_ZMK_USB_LOGGING=y
