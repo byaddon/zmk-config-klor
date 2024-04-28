@@ -64,10 +64,10 @@
                                  └─────────┴─────────┴─────────┴─────────┘└─────────┴─────────┴─────────┴─────────┘ */
 
             bindings = <
-           &kp UNDER  &kp MINUS  &kp PLUS  &kp EQUAL  &kp COLON                  &kp GRAVE  &trans    &kp PG_UP  &kp PG_DN  &kp DEL
-&trans     &kp LBRC   &kp LPAR   &kp RPAR  &kp RBRC   &kp PIPE                   &kp CARET  &kp LEFT  &kp UP     &kp RIGHT  &trans      &trans
-&kp LSHFT  &kp LBKT   &kp SQT    &kp DQT   &kp RBKT   &kp SEMI   &trans  &trans  &kp TILDE  &kp BSLH  &kp DOWN   &trans     &kp RSHIFT  &trans
-                                 &trans    &trans     &trans     &trans  &trans  &trans     &trans    &trans
+           &kp UNDER         &kp MINUS          &kp PLUS         &kp EQUAL   &kp COLON                  &kp GRAVE  &trans    &kp PG_UP  &kp PG_DN  &kp DEL
+&trans     &kp LBRC          &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &kp RBRC    &kp PIPE                   &kp CARET  &kp LEFT  &kp UP     &kp RIGHT  &trans      &trans
+&kp LSHFT  &kp K_PLAY_PAUSE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &kp SEMI   &trans  &trans  &kp TILDE  &kp BSLH  &kp DOWN   &trans     &kp RSHIFT  &trans
+                                                &trans           &trans      &trans     &trans  &trans  &trans     &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRI_UP C_BRI_DN>;
