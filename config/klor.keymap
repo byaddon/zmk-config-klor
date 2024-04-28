@@ -9,11 +9,6 @@
 // keep it high until you're familiar with keyboard to avoid misclicks
 // later lower it to <= 200
 
-quick-tap-ms {
-    = <
-
-    0 = >;
-};
 
 // DO NOT MAKE LAYER LABELS LARGER
 
